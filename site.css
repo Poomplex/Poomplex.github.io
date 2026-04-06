@@ -49,6 +49,27 @@ li.dropdown {
     display: block;
 }
 
+.front-image-wrap {
+    position: relative;
+    display: inline-block;
+    max-width: 1090px;
+}
+
+.front-image-wrap #next {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.front-image-overlay {
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 92%;
+    height: auto;
+}
+
 
 
 
